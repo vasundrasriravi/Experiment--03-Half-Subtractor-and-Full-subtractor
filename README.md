@@ -1,13 +1,14 @@
-## NAME:VASUNDRA SRI R
-## REG NO:212222230168
-# Experiment--03-Half-Subtractor-and-Full-subtractor
-## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
+```
+ NAME:VASUNDRA SRI R
+ REG NO:212222230168
+```
+# Experiment 04 Half Subtractor and Full subtractor
+
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+Hardware – PCs, Cyclone II , USB flasher Software – Quartus prime
 ## Theory
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
 
@@ -43,12 +44,12 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
    - To compile the project, click on "Processing" > "Start Compilation" in the menu.
    - Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
 
-5. Analyze and Fix Errors:*
+5. Analyze and Fix Errors:
    - If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
    - Review and fix any issues in your code if necessary.
    - View the RTL diagram.
 
-6.*Verification:
+6. Verification:
    - Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
    - Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
    - Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
