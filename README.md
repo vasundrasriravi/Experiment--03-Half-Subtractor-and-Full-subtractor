@@ -1,7 +1,5 @@
-```
- NAME:VASUNDRA SRI R
- REG NO:212222230168
-```
+# NAME:VASUNDRA SRI R
+# REG NO:212222230168
 # Experiment 04 Half Subtractor and Full subtractor
 
 ## AIM:
